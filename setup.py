@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(name='version_string',
       version='0.1',
-      url='https://github.com/the-gigi/pathology',
+      url='https://github.com/Patibandha/version_string',
       license='MIT',
-      author='Gigi Sayfan',
-      author_email='the.gigi@gmail.com',
-      description='Add static script_dir() method to Path',
+      author='Meet Patibandha',
+      author_email='',
+      description='compare two string',
       packages=find_packages(exclude=['tests']),
-      long_description=open('README.md').read(),
+      # long_description=open('README.md').read(),
       zip_safe=False)
